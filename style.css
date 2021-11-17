@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: teal;
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.btn:hover {
+  background-color: forestgreen;
+  color: #333;
+}
+
+.service {
+  width: 1000px;
+  margin: 100px auto;
+  background-color: #f2f2f2;
+  border: 1px solid gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.service__single {
+  padding: 20px;
+  background-color: tomato;
+  color: #fff;
+  -ms-flex-preferred-size: 32%;
+      flex-basis: 32%;
+}
+
+.service__title {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.service__des {
+  line-height: 20px;
+  padding: 12px 0;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.service__btn--red {
+  background-color: red;
+  color: #fff;
+}
+
+.service__btn--red:hover {
+  background-color: maroon;
+  color: #fff;
+}
+
+.service__btn--green {
+  background-color: green;
+  color: #333;
+}
+
+.service__btn--green:hover {
+  background-color: limegreen;
+  color: #fff;
+}
+
+.service__btn--blue {
+  background-color: blue;
+  color: #f2f2f2;
+}
+
+.service__btn--blue:hover {
+  background-color: royalblue;
+  color: #333;
+}
+/*# sourceMappingURL=style.css.map */
