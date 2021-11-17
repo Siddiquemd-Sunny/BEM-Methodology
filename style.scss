@@ -8,6 +8,17 @@
 body{
     font-family: 'Courier New', Courier, monospace;
 }
+// Block strat
+.title {
+    text-align: center;
+    margin-top: 30px;
+    &__bem{
+            display: inline-block;
+            font-size: 33px;
+            font-weight: 900;
+    }
+}
+// Block end
 .btn{
     display: inline-block;
     font-size: 18px;

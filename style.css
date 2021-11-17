@@ -9,6 +9,17 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.title {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.title__bem {
+  display: inline-block;
+  font-size: 33px;
+  font-weight: 900;
+}
+
 .btn {
   display: inline-block;
   font-size: 18px;
